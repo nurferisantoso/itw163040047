@@ -1,0 +1,348 @@
+body {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.sidebar {
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 20%;
+	background-color: #000000;
+	z-index: 1;
+	position: fixed;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.kotak {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.list ul>li {
+	list-style: none;
+	margin-left: -40px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-family: "comic sans ms";
+}
+
+.list ul>li:hover {
+	list-style: none;
+	background-color: #ff7f7f;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.kanan{
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+#kanan1{
+	float: right;
+	width: 80%;
+	height: 640px;
+	background-color:#424242; 
+}
+
+#kanan1 h1 {
+		font-family: "comic sans ms";
+		color: white;
+		text-align: center;
+}
+
+#kanan1 img {
+	padding-left: 100px;
+}
+
+
+#kanan2{
+	float: right;	
+	width: 80%;
+	height: 640px;
+	background-color: #616161;
+}
+
+#kanan2 h1 {
+		font-family: "comic sans ms";
+		color: white;
+		text-align: center;
+}
+
+#kanan2 .gambar1 img {
+				margin: 10px 300px;
+			    transition: all 1s ease;
+		        -moz-transition: all 1s ease;
+			    -o-transition: all 1s ease;
+		       -webkit-transition: all 1s ease;
+}
+
+#kanan2 .gambar1 img:hover {
+			             transform: scale(1.2); 
+						-moz-transform: scale(1.2);
+			            -o-transform: scale(1.2);
+		                -webkit-transform: scale(1.2);
+}
+
+.isiprofil {
+			width: 700px;
+			height: 300px;
+			margin: 0 250px;
+}
+ h2 {
+ 	font-size: 25px;
+ 	font-family: "comic sans ms";
+ }
+
+ .isiprofil p {
+ 				font-size: 15px;
+ 				font-family: comic sans ms;
+ 				color: white;
+ }
+
+ul {
+	color: white;
+}
+
+ ul>li {
+ 	color: white;
+ }
+
+#kanan3{
+	float: right;	
+	width: 80%;
+	height: 640px;
+	background-color: #757575;
+	position: relative;
+}
+
+#kanan3 h1 {
+		font-family: "comic sans ms";
+		color: white;
+		text-align: center;
+}
+
+#kanan3 .skill {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 900px;
+	height: 300px;
+	background-color: #E0E0E0;
+	padding-top: 1px;
+}
+
+#kanan3 img {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+}
+
+#kanan3 .skill p{
+	float: right;
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+	padding-right: 500px;
+	padding-top: 50px;
+	position: absolute;
+	top: 1350px;
+	left: 555px;
+}
+
+.skill .html {
+		width: 600px;
+		height: 20px;
+		margin-top: 60px;
+		margin-left: 230px;
+}
+
+.skill .html1 {
+		width: 600px;
+		height: 20px;
+		background-color: white;
+}
+
+.skill .html1 .designer {
+		width: 500px;
+		height: 20px;
+		background-color: gray;
+}
+
+.skill .css {
+		width: 600px;
+		height: 20px;
+		background-color: white;
+		
+}
+
+.skill .css .css1 {
+		width: 450px;
+		height: 20px;
+		background-color: gray;
+		
+}
+
+.skill .css3 {
+		width: 600px;
+		height: 20px;
+		background-color: white;
+		
+}
+
+.skill .css3 .css31 {
+		width: 250px;
+		height: 20px;
+		background-color: gray;
+		
+}
+
+.skill .jquery {
+		width: 600px;
+		height: 20px;
+		background-color: white;
+}
+
+.skill .jquery .jquery1 {
+		width: 50px;
+		height: 20px;
+		background-color: gray;
+}
+
+.skill .microsoft {
+		width: 600px;
+		height: 20px;
+		background-color: white;
+}
+
+.skill .microsoft .word {
+		width: 550px;
+		height: 20px;
+		background-color: gray;
+}
+
+#kanan3 .grafik {
+		position: absolute;
+}
+
+#kanan3 .audio {
+		margin: 100px 300px;
+}
+
+#kanan4{
+	float: right;	
+	width: 80%;
+	height: 640px;
+	background-color: #9E9E9E;
+}
+
+#kanan4 h1 {
+		font-family: "comic sans ms";
+		color: white;
+		text-align: center;
+}
+
+#kanan4 .contact {
+	margin-top: 100px;
+	margin-left: 20px;
+	width: 500px;
+	height: 330px;
+	background-color: #E0E0E0;
+	padding: 10px 10px;
+}
+
+#kanan4 .sosmed {
+		margin: -300px 600px;
+		width: 400px;
+		height: 300px;
+		background-color: #E0E0E0;
+}
+
+#kanan4 .sosmed .sosmed1 img {
+				padding: 20px 50px;
+}
+
+/*.clear {
+	clear: both;
+}
+*/
+#kanan4 .sosmed .sosmed2 {
+						margin-left: 10px;
+						padding: 20px;
+						float: left;
+
+}
+
+#kanan5{
+	float: right;	
+	width: 80%;
+	height: 640px;
+	background-color: #BDBDBD;
+}
+
+#kanan5 h1 {
+		font-family: "comic sans ms";
+		color: white;
+		text-align: center;
+}
+
+#kanan5 .foto {
+	margin: 20px;
+	width: 570px;
+	height: 200px;
+	background-color: #E0E0E0;
+}
+
+#kanan5 .foto p {
+		float: right;
+		padding-right: 150px;
+		padding-top: 0px;
+		font-family: comic sans ms;
+		font-size: 15px;
+}
+
+#kanan5 .porto {
+	width: 800px;
+	height: 500px;
+	margin: 20px 150px;
+	float: left;
+	background-color: #E0E0E0;
+}
+
+.porto1, .porto2, .porto3, .porto4 {
+	float: right;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.porto3, .porto1 {
+	margin-left: 200px;
+}
+
+.porto1 {
+	background-image: url('../ASSETS/IMG/sertifikat1.png');
+	background-size: cover;
+	width: 300px;
+	height: 200px;
+}
+
+.porto2 {
+	background-image: url(../ASSETS/IMG/sertifikat2.png);
+	background-size: cover;
+	width: 300px;
+	height: 200px
+}
+
+
+#kanan5 .porto .porto1 img {
+		width: 300px;
+		height: 300px;
+}
+
+#kanan5 .porto .porto2 img {
+		width: 300px;
+		height: 300px;
+}
+
+
+
